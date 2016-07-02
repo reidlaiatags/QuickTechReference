@@ -1,3 +1,3 @@
 # Quick Technical Reference
-## Installation
+## Docker related
 - [Install Docker in Ubuntu Server](./INSTALL-DOCKER-IN-UBUNTU.md)
