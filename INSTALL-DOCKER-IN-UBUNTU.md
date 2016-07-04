@@ -19,10 +19,12 @@
   ```
 5. Save and close the /etc/apt/sources.list.d/docker.list file.  
 6. Update package information, ensure that APT works with the https method, and that CA certificates are installed.
+
   ```
   $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
   $ sudo apt-get update && install apt-transport-https ca-certificates
   ```
+  
 7. Install docker-engine
 
   ```
