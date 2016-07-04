@@ -22,13 +22,7 @@
 
   ```
   $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-  $ sudo apt-get update && install apt-transport-https ca-certificates
-  ```
-  
-7. Install docker-engine
-
-  ```
-  $ sudo apt-get install docker-engine
+  $ sudo apt-get update && install apt-transport-https ca-certificates docker-engine -y
   ```
   
 8. Add user into docker group and restart docker service
