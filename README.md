@@ -5,3 +5,4 @@
 
 ## Docker related
 - [Install Docker in Ubuntu Server](./INSTALL-DOCKER-IN-UBUNTU.md)
+- [Run multiple processes and services in docker container](./INSTALL-SUPERVISOR.md)
