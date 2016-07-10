@@ -2,9 +2,7 @@
 
 When designing a Docker container, you're supposed to build it such that there is only one process running; additionally, that process should run in the foreground.
 
-So when you start background services in docker, container will immediately stop after completed.
-
-Supervisor can help to solve problem of starting background service and multple processes.
+Supervisor can help to solve problem of starting multple processes.
 
 ## Create supervisord.conf file
 
