@@ -19,7 +19,7 @@ This example is based on Ubuntu 16.04.
 	allow bootp;
 	
 	subnet xxx.xxx.xxx.0 netmask 255.255.255.0 {
-	  range <min_dynamic_ip> <max_dynamic_ip;
+	  range <min_dynamic_ip> <max_dynamic_ip>;
 	  option broadcast-address xxx.xxx.xxx.255;
 	  filename "/pxelinux.0";
 	}
